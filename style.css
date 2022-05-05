@@ -147,3 +147,30 @@
 .profileInfo__info__button{
   margin-top: 25px;
 }
+
+
+.orders{
+  max-width: 560px;
+  max-height: 32px;
+  background: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px;
+}
+.orders__number{
+  max-height: 100%;
+  max-width: 130px;
+}
+.orders__text{
+  display: flex;
+  max-width: 307px;
+  justify-content: flex-start;
+}
+.orders__data{
+  max-width: 100px;
+  max-height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
