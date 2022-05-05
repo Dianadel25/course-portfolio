@@ -162,7 +162,7 @@
 }
 .order__number{
   max-height: 100%;
-  idth: 130px;
+  width: 130px;
 }
 .order__text{
   display: flex;
