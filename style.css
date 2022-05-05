@@ -149,7 +149,7 @@
 }
 
 
-.orders{
+.order{
   max-width: 560px;
   max-height: 32px;
   background: white;
@@ -159,16 +159,16 @@
   justify-content: space-between;
   padding: 9px;
 }
-.orders__number{
+.order__number{
   max-height: 100%;
   max-width: 130px;
 }
-.orders__text{
+.order__text{
   display: flex;
   max-width: 307px;
   justify-content: flex-start;
 }
-.orders__data{
+.order__data{
   max-width: 100px;
   max-height: 100%;
   display: flex;
