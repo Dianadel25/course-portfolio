@@ -96,7 +96,7 @@
 .text--color{
   color: #FFFFFF;
 }
-.text--adrresses{
+.text--title{
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -149,7 +149,7 @@
 }
 
 
-.orders{
+.order{
   max-width: 560px;
   max-height: 32px;
   background: white;
@@ -158,19 +158,48 @@
   display: flex;
   justify-content: space-between;
   padding: 9px;
+  margin-top: 5px;
 }
-.orders__number{
-  max-height: 100%;
-  max-width: 130px;
-}
-.orders__text{
+
+.order--background{
+  background: transparent;
+  max-width: 560px;
+  max-height: 32px;
+  border-radius: 22px;
   display: flex;
-  max-width: 307px;
+  justify-content: space-between;
+  padding: 9px;
+}
+
+.order__number{
+  max-height: 100%;
+  width: 130px;
+}
+.order__text{
+  display: flex;
+  width: 307px;
   justify-content: flex-start;
 }
-.orders__data{
-  max-width: 100px;
+.order__data{
+  width: 100px;
   max-height: 100%;
   display: flex;
   justify-content: flex-start;
+}
+
+
+.ordersComponent{
+  max-width: 560px;
+  max-height: 251px;
+  display: flex;
+  flex-direction: column;
+}
+.ordersComponent__name{}
+.ordersComponent__info{}
+.ordersComponent__button{
+  width: 100%;
+  height: 36px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
