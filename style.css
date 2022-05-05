@@ -11,3 +11,94 @@
 .button--full{
   display: block;
 }
+
+.addressesBlock{
+  max-width: 392px;
+  height: 260px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.addressesBlock__name{}
+.addressesBlock__information{
+  max-width: 100%;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+}
+.information{
+  width: 182px;
+  max-height: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  display: flex;
+  flex-flow: wrap column;
+  padding: 20px;
+}
+.information--margin{
+  margin-left: 27px;
+}
+.information__user{
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: nowrap row;
+}
+.information__user__name{}
+.ellipsis{
+  width: 18px;
+  height: 18px;
+}
+.ellipsis img{
+  right: 0;
+}
+
+.information__addresses{
+  display: flex;
+  flex-wrap: wrap ;
+}
+.ul li{
+  text-decoration: none;
+}
+
+.addressesBlock__button{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.buttonPlace{
+  height: 23px;
+  width: 82px;
+  bottom: 0;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.siteButton{
+  background: #EE171F;
+  border-radius: 11.5px;
+  position: absolute;
+  text-align: center;
+  padding:5px 15px;
+}
+
+.text{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.text--font-weight{
+  font-weight: 500;
+}
+.text--color{
+  color: #FFFFFF;
+}
+.text--adrresses{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
