@@ -158,18 +158,19 @@
   display: flex;
   justify-content: space-between;
   padding: 9px;
+  margin-top: 5px;
 }
 .order__number{
   max-height: 100%;
-  max-width: 130px;
+  idth: 130px;
 }
 .order__text{
   display: flex;
-  max-width: 307px;
+  width: 307px;
   justify-content: flex-start;
 }
 .order__data{
-  max-width: 100px;
+  width: 100px;
   max-height: 100%;
   display: flex;
   justify-content: flex-start;
