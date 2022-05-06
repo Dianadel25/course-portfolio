@@ -188,15 +188,15 @@
 }
 
 
-.ordersComponent{
+.adminOrderComponent{
   max-width: 560px;
   max-height: 251px;
   display: flex;
   flex-direction: column;
 }
-.ordersComponent__name{}
-.ordersComponent__info{}
-.ordersComponent__button{
+.adminOrderComponent__name{}
+.adminOrderComponent__info{}
+.adminOrderComponent__button{
   width: 100%;
   height: 36px;
   display: flex;
