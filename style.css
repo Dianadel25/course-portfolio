@@ -45,7 +45,9 @@
   flex-flow: nowrap row;
   width: 100%;
 }
-.information__user__name{}
+.userName{
+  font-weight: 500;
+}
 .ellipsis{
   width: 18px;
   height: 18px;
@@ -71,7 +73,6 @@
   height: 23px;
   width: 82px;
   bottom: 0;
-  position: relative;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -79,27 +80,35 @@
 .siteButton{
   background: #EE171F;
   border-radius: 11.5px;
-  position: absolute;
   text-align: center;
   padding:5px 15px;
+  font-weight: 500;
+  color: #FFFFFF;
+  width: 100%;
 }
 
-.text{
+body{
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   color: #000000;
 }
-.text--font-weight{
-  font-weight: 500;
-}
-.text--color{
-  color: #FFFFFF;
-}
-.text--adrresses{
+
+.heading1{
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
 }
 
+.avatar{
+  max-width: 197px;
+  max-height: 197px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar img{
+  vertical-align: bottom;
+  max-height: 100%;
+  max-width: 100%;
+}
